@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/input_nom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Entrez le nom"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            />
+
+        <TextView
+            android:id="@+id/label_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prénom"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/input_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Entrez le prénom"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"/>
+
+
+
+        <TextView
+            android:id="@+id/label_filiere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filière"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_filiere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:spinnerMode="dropdown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/label_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textSize="16sp"/>
+
+        <RadioGroup
+            android:id="@+id/radio_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <RadioButton
+                android:id="@+id/radio_homme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homme"/>
+
+            <RadioButton
+                android:id="@+id/radio_femme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Femme"
+                android:layout_marginStart="16dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/label_niveau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niveau"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="6dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_bac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bac" />
+
+            <CheckBox
+                android:id="@+id/checkbox_newbac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NewBac" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="42dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#BBBBBB" />
+
+        <Button
+            android:id="@+id/btn_valider"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Valider / Enregistrer"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
