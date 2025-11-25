@@ -38,7 +38,9 @@ Le projet est structuré de manière claire :
 
 ## 📸 Aperçu (Screenshots)
 
-| Liste Principale | Formulaire d'Ajout |
-|:---:|:---:|
-| *screenshot de recyclerview((https://github.com/hamzavscode/tpAdapter/issues/1))* | *(Formulaire d'Ajout(https://github.com/hamzavscode/tpAdapter/issues/2))* |
+| Liste Principale | Formulaire d'Ajout | Formulaire de Modification | Test de Recherche/Filtrage |
+|:---:|:---:|:---:|:---:|
+| *screenshot de recyclerview((https://github.com/hamzavscode/tpAdapter/issues/1))* | *(Ajouter un etudiant(https://github.com/hamzavscode/tpAdapter/issues/2))* |*(Modifier un etudiant(https://github.com/hamzavscode/tpAdapter/issues/3))* |
+
+
 
