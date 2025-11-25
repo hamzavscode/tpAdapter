@@ -40,5 +40,5 @@ Le projet est structuré de manière claire :
 
 | Liste Principale | Formulaire d'Ajout |
 |:---:|:---:|
-| *screenshot de recyclerview((https://github.com/hamzavscode/tpAdapter/issues/1))* | *(Ajoute une capture d'écran ici)* |
+| *screenshot de recyclerview((https://github.com/hamzavscode/tpAdapter/issues/1))* | *(Formulaire d'Ajout(https://github.com/hamzavscode/tpAdapter/issues/2))* |
 
