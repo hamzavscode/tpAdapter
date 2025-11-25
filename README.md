@@ -40,5 +40,5 @@ Le projet est structuré de manière claire :
 
 | Liste Principale | Formulaire d'Ajout |
 |:---:|:---:|
-| *(Ajoute une capture d'écran ici)* | *(Ajoute une capture d'écran ici)* |
+| *([Ajoute une capture d'écran ici](https://github.com/hamzavscode/tpAdapter/issues/1))* | *(Ajoute une capture d'écran ici)* |
 
