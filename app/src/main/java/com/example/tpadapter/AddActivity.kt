@@ -58,11 +58,10 @@ class AddActivity : AppCompatActivity() {
             val pos = (spinnerFiliere.adapter as ArrayAdapter<String>).getPosition(e.filiere)
             spinnerFiliere.setSelection(pos)
 
-            // genre
             if (e.genre == "Homme") radioGroupGenre.check(R.id.radio_homme)
             if (e.genre == "Femme") radioGroupGenre.check(R.id.radio_femme)
 
-            // niveau
+           
             checkBac.isChecked = e.niveau.contains("Bac")
             checkNewBac.isChecked = e.niveau.contains("NewBac")
 
@@ -82,7 +81,7 @@ class AddActivity : AppCompatActivity() {
 
         val filiere = spinnerFiliere.selectedItem.toString()
 
-        // genre
+        
         val selectedRadioId = radioGroupGenre.checkedRadioButtonId
         val genre = if (selectedRadioId != -1) findViewById<RadioButton>(selectedRadioId).text.toString()
         else "Non spécifié"
